@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Đào Coin 101</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Đào Coin 101</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Trang chủ</a></li>
+        <li><a href="#">Hướng dẫn</a></li>
+        <li><a href="#">So sánh máy đào</a></li>
+        <li><a href="#">Tin tức</a></li>
+        <li><a href="#">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Khám phá thế giới đào coin</h2>
+      <p>Hướng dẫn từ cơ bản đến nâng cao để bạn có thể bắt đầu hành trình đào Bitcoin, Kaspa, Ethereum và nhiều đồng coin khác một cách hiệu quả.</p>
+      <a class="btn" href="#">Bắt đầu ngay</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Đào Coin 101. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f1115;
+  color: #e0e0e0;
+}
+
+header {
+  background-color: #1a1c22;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: #00ffc3;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00ffc3;
+}
+
+main {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.intro p {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 1.1rem;
+  color: #bbbbbb;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #00ffc3, #0075ff);
+  color: #000;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #1a1c22;
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 0.9rem;
+}
